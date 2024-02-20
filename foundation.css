@@ -1,0 +1,277 @@
+@import "/web/20180817040003cs_/http://iplmedia.com/css/reset.css";
+@import "/web/20180817040003cs_/http://iplmedia.com/css/prettyPhoto.css";
+@import "/web/20180817040003cs_/http://iplmedia.com/css/jquery.jscrollpane.css";
+@import "/web/20180817040003cs_/http://iplmedia.com/css/jplayer.css";
+
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video{ display: block; }
+mark, rp, rt, ruby, summary, time{ display: inline }
+
+/* Left & Right alignment */
+
+.left { float:left;}
+.right { float:right;}
+.clear {clear:both;}
+.table {display:table;}
+.wrapper {width:100%; overflow:hidden;}
+.relative {position:relative;}
+.absolute {position:absolute;}
+
+/* Global properties ======================================================== */
+body, html {height:100%;}
+
+body{ background:#062f52 url(/web/20180817040003im_/http://iplmedia.com/images/bg_px1.jpg); border:0; font: 12px Arial, Helvetica, sans-serif; color:#c2ccdc ; line-height:18px; min-width:1000px; position:relative; overflow:hidden;min-width:1000px;}
+
+.spinner{ position:absolute; z-index:99; background:url(/web/20180817040003im_/http://iplmedia.com/images/loader.gif) 50% 50% no-repeat #062f52; width:100%; height:100%; top:0; left:0}
+
+.extra {min-width:1000px;min-height:100%; height:auto !important; height:100%; margin: 0 auto 0px; overflow:hidden; position:relative; z-index:10; background:url(/web/20180817040003im_/http://iplmedia.com/images/bg1.jpg) center center no-repeat;}
+
+
+.main1 { width:100%;height:800px; position:relative; z-index:1;}
+
+
+
+
+
+.main2{ width:100%; height:800px; position:absolute; left:0; top:50%; margin-top:-210px; z-index:5; }
+
+.px1{ width:100%; height:298px; background:url(/web/20180817040003im_/http://iplmedia.com/images/px1.png); position:absolute; left:0; top:45px; z-index:1; overflow:hidden;}
+.px2{ width:100%; height:278px; background:#000; position:absolute; left:0; top:55px; z-index:2; overflow:hidden;}
+.bg2{ width:100%; height:700px; background:url(/web/20180817040003im_/http://iplmedia.com/images/bg2.jpg) center top no-repeat; position:absolute; left:0; top:0; z-index:1;}
+.px2 .hl1{ width:100%; height:2px; background:url(/web/20180817040003im_/http://iplmedia.com/images/hl1.png) 0 0 repeat-x; position:absolute; left:0; top:0; z-index:2;}
+.px2 .hl2{ width:100%; height:2px; background:url(/web/20180817040003im_/http://iplmedia.com/images/hl2.png) 0 0 repeat-x; position:absolute; left:0; bottom:0; z-index:2;}
+
+
+
+header{ width:100%; position:absolute; left:0; top:25%; margin-top:-200px; z-index:21; text-align:center;}
+.logo { display:inline-block;text-decoration:none; padding:13px 0 0 0;}
+.logo .txt1{text-decoration:none; font-family:'BebasNeueRegular'; font-size:28px; line-height:30px;text-transform:uppercase; color:#101f37; padding-top:0px; text-shadow:1px 1px 1px #3e5569;}
+
+
+footer{ width:100%; height:33px; background:#101f33; position:absolute; left:0; bottom:0; z-index:20; border-top:1px solid #313c4f; text-align:center;}
+
+.icons { display:inline-block; margin-top:-23px;}
+.icons > li { display:inline-block; padding:0 2px;position:relative;}
+.icons > li > a{display:block; width:100%;}
+
+.copyright{color:#7b8088; line-height:33px; position:absolute; left:20px; top:0; z-index:2; }
+.copyright a{ color:#b8bec7; text-decoration:underline;}
+
+.tola{ display:inline-block; position:absolute; right:0; top:0; z-index:2; text-align:left; border-left:1px solid #313c4f;}
+
+
+
+
+
+
+/* ============================= splash ====================== */
+
+.splash{ width:100%; height:278px; position:absolute; left:0; top:0px; z-index:20;}
+
+#caption{ width:100%;text-align:center; position:relative; z-index:1;}
+#caption li {display: block; width:100%;left: 0; top: 50px; position: absolute;}
+#caption .txt1 { font-family:'ProximaNovaRgBold'; font-size:50px; color:#fff; line-height:50px; text-transform:uppercase;text-shadow:5px 5px 5px rgba(0, 0, 0, 0.5);}
+#caption .txt2 { font-family:'ProximaNovaLtRegular';font-size:80px; line-height:80px; color:#fff;text-transform:uppercase;text-shadow:5px 5px 5px rgba(0, 0, 0, 0.5); }
+
+.prev1{display:block;width:28px;height:43px; background:url(/web/20180817040003im_/http://iplmedia.com/images/prev.png) 0 0 no-repeat;text-decoration:none; position:absolute; left:25px;top:120px;z-index:2;}
+
+.next1{display:block;width:28px;height:43px;background:url(/web/20180817040003im_/http://iplmedia.com/images/next.png) 0 0 no-repeat;text-decoration:none;position:absolute;right:25px;top:120px;z-index:2;}
+
+
+
+/* ============================= main menu ====================== */
+
+.menu { display:block; width:100%; height:55px; position:absolute; left:0; top:0px; z-index:10; text-align:center; white-space:nowrap;}
+#menu { display:inline-block;}
+#menu > li { display:inline-block;height:55px;padding-left:2px; position:relative; float:left;white-space:nowrap; background:url(/web/20180817040003im_/http://iplmedia.com/images/markers.png) 0 0 no-repeat;}
+#menu > li.last{}
+#menu > li > a{display:inline-block; height:55px; text-decoration:none; position:relative; padding:0 20px; overflow:hidden;}
+#menu > li > a .over{display:block;position: absolute;width:100%; height:55px; left:0px; top:55px; z-index:10; background: url(/web/20180817040003im_/http://iplmedia.com/images/nav.png) left bottom repeat-x;}
+#menu > li > a .txt1{ display:block; position: relative; width:100%; height:100%; left:0px; top:0px; z-index:5;font-family:'BebasNeueRegular';font-size:24px; line-height:60px; color:#c2ccdc; text-decoration:none; text-transform:uppercase; text-shadow:1px 1px 1px #000;  }
+
+#menu > li > a:hover .over, #menu > li.sfHover > a .over{ top:0px;}
+
+#menu > li.active > a .over{ top:55px;}
+
+.submenu{ position:absolute; z-index:1; top:55px; left:2px;}
+.submenu > ul{ padding:0px 0;  }
+.submenu ul > li{ display:block; width:100%; height:27px; position:relative; text-align:left; border-top:1px solid #1d5a78; border-bottom:1px solid #1e3652;}
+.submenu ul > li > a{ display:block;height:100%;text-decoration:none; position: relative; font-family:'BebasNeueRegular';font-size:18px; line-height:27px; color:#c2ccdc; white-space:nowrap; padding:0 20px; text-transform:uppercase; background:#244162;}
+
+
+.menu_splash { width:100%; height:145px; position:absolute; left:0; top:253px; z-index:50;}
+#menu_splash { width:100%; height:100%; position:relative;}
+#menu_splash > li { width:145px; height:145px; position:absolute;}
+#menu_splash > li > a{display:block; width:100%; height:100%; text-decoration:none; position:relative;background:url(/web/20180817040003im_/http://iplmedia.com/images/nav_bg.png) 1px bottom no-repeat;  }
+#menu_splash > li > a img{ position: absolute; left:0px; top:0px; z-index:1;border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; }
+#menu_splash > li > a .over{ display:block; position: absolute; width:133px; height:133px; left:6px; top:5px; z-index:1;}
+#menu_splash > li > a .txt1{ display:block; width:100%;position: absolute;left:0px; top:70px; z-index:2; font-family:'BebasNeueRegular';font-size:20px; line-height:20px; text-decoration:none; white-space:nowrap; letter-spacing:0px; text-transform:uppercase; text-align:center; color:#fff; text-shadow:0px 0px 5px rgba(0, 0, 0, 0.5);}
+
+#menu_splash > li.nav1{ left:7%; top:0;}
+#menu_splash > li.nav2{ left:26%; top:0;}
+#menu_splash > li.nav3{ left:45%; top:0;}
+#menu_splash > li.nav4{ left:64%; top:0;}
+#menu_splash > li.nav5{ left:83%; top:0;}
+
+#menu_splash > li.nav1 > a .over{ background:url(/web/20180817040003im_/http://iplmedia.com/images/nav1.png) 0 0 no-repeat;}
+#menu_splash > li.nav2 > a .over{ background:url(/web/20180817040003im_/http://iplmedia.com/images/nav2.png) 0 0 no-repeat;}
+#menu_splash > li.nav3 > a .over{ background:url(/web/20180817040003im_/http://iplmedia.com/images/nav3.png) 0 0 no-repeat;}
+#menu_splash > li.nav4 > a .over{ background:url(/web/20180817040003im_/http://iplmedia.com/images/nav4.png) 0 0 no-repeat;}
+#menu_splash > li.nav5 > a .over{ background:url(/web/20180817040003im_/http://iplmedia.com/images/nav5.png) 0 0 no-repeat;}
+
+/* ============================= main layout ====================== */
+
+#content{ width:1000px; height:528px; position:absolute; left:50%; margin-left:-500px; top:0px; z-index:5;}
+#content > ul{ width:100%; height:100%; position:relative;}
+#content > ul > li{ width:1000px; height:528px; position:absolute;}
+
+.box{ width:950px;height:498px; position:relative; padding:30px 25px 0 25px;}
+
+.col0,.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12   { float:left;}
+
+.col0 { width:1px; height:412px; background:#1b303b; margin-left:24px; margin-right:25px; margin-top:0px;}
+
+.col1{ width:340px;}
+.col2{ width:560px;}
+.col3{ width:600px;}
+.col4{ width:300px;}
+.col5{ width:380px;}
+.col6{ width:520px;}
+.col7{ width:450px;}
+
+
+
+
+
+.pad_left1{ padding-left:10px;}
+.pad_left2{ padding-left:20px;}
+.pad_left3{ padding-left:30px;}
+.pad_left4{ padding-left:40px;}
+.pad_left5{ padding-left:50px;}
+.pad_left6{ padding-left:60px;}
+
+
+
+
+a{ color:#fff; text-decoration: underline; outline:none}
+a:hover{ text-decoration: none}
+
+h1{font-family:'ProximaNovaLtRegular';font-weight:normal;font-size:22px;color:#77b74c;line-height:22px; padding:0px 0 15px 0;}
+h2{font-family:'ProximaNovaLtRegular';font-weight:normal;font-size:30px;color:#fff;line-height:30px; padding:0px 0 15px 0;}
+h3{font-family:'ProximaNovaLtRegular';font-weight:normal;font-size:18px;color:#d86852;line-height:18px; padding:0px 0 5px 0; }
+.h3{ display:block;font-weight:normal;font-size:18px;color:#2a5b8a;line-height:18px; padding:0px 0 5px 0; }
+.h4{ display:block;font-weight:normal;font-size:18px;color:#818181;line-height:18px; padding:0px 0 5px 0; }
+h4{ display:block;font-weight:normal;font-size:16px;color:#f3b524;line-height:16px; padding:0px 0 5px 0; }
+h5{ display:block;font-weight:normal;font-size:16px;color:#ff4431;line-height:16px; padding:0px 0 5px 0; }
+
+
+.upper { text-transform:uppercase;}
+
+.color1{ color:#fff;}
+.color2{ color:#48677a;}
+
+.text { padding:0 0 5px; font-size:14px; display:block;}
+
+.line1 { height:1px; background: url(/web/20180817040003im_/http://iplmedia.com/images/line1_px.png) 0 0 repeat-x; margin:15px 0;}
+
+.radius1{border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;}
+
+.border1 { border:1px solid #000;}
+.border2{ padding:5px; background:#fff;}
+
+
+
+.img1 {margin-bottom:20px;margin-right:20px;}
+.img2 {margin-right:20px; }
+.img3 {margin-bottom:20px;}
+.img4 {margin-left:60px; }
+
+.video1 {width:336px; height:177px; margin-bottom:15px; }
+.video1 a img {border:1px solid #000;padding:5px; background:#fff;}
+
+.button1{ display:inline-block; height:20px; line-height:20px;text-decoration:none; margin-top:10px; margin-bottom:10px; font-size:20px; font-family:'BebasNeueRegular'; color:#80bad4; text-transform:uppercase; white-space:nowrap; letter-spacing:0px; background:url(/web/20180817040003im_/http://iplmedia.com/images/button1.png) 0 0 no-repeat; padding-left:30px;}
+
+.ul1 > li { line-height:25px; margin-bottom:5px; }
+.ul1 > li a{ display:block;text-decoration:none; font-family:'ProximaNovaLtRegular'; font-size:18px; color:#78b3cf;background:url(/web/20180817040003im_/http://iplmedia.com/images/li_st1.png) 12px 8px no-repeat; padding-left:40px;}
+.ul1 > li a:hover{ text-decoration:none; color:#fff; background:#2f405b url(/web/20180817040003im_/http://iplmedia.com/images/li_st1_over.png) 12px 8px no-repeat;}
+
+.gal1 { padding-bottom:30px;}
+
+.photo1 {width:156px; height:157px; margin-right:15px; float:left;}
+.photo1 a img {border:1px solid #000;padding:5px; background:#fff;}
+
+.google_map{
+
+	width: 394px;
+	height: 218px;
+	border-radius:0px;
+	background: #fff;
+	position:relative;
+	overflow:hidden; margin-bottom:20px; border:1px solid #000;padding:5px; background:#fff;
+
+}
+
+
+/*===================== jScrollPane =====================*/
+
+.scroll-pane{width: 100%; height:366px; overflow: auto;}
+
+
+/*================= Contacts =========================*/
+
+#note{ width:440px;}
+.notification_error{ color:#f00; margin-bottom:5px }
+.notification_ok{ text-align: center;} 
+
+#ajax-contact-form label{float:left; width: 100px; line-height:31px; color:#c2ccdc;}
+#ajax-contact-form label.c{ margin-top:5px;}
+
+input{ float:left; width:330px; height:29px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color: #c2ccdc; background: #000; border: 1px solid #162b46; margin-bottom:5px; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px; }
+
+textarea{ float:left; width:330px; height:60px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color: #c2ccdc; background: #000; border: 1px solid #162b46; margin-bottom:5px; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;}
+
+#ajax-contact-form img{float:left; width:120px; height:53px; margin-top:5px; margin-left:10px;}
+
+input.capthca{ float:left; width:81px; margin-top:5px; margin-right:10px;}
+
+input.submit{ width:83px; height:34px; cursor:pointer; background:url(/web/20180817040003im_/http://iplmedia.com/images/submit.png) right top no-repeat; border:none; margin:25px 0 0 345px; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;  text-indent:-999%; }
+input.submit:hover{ background-position:bottom;}
+
+
+/* Generated by Font Squirrel (http://www.fontsquirrel.com)  */
+
+@font-face {
+    font-family: 'ProximaNovaLtRegular';
+    src: url('/web/20180817040003im_/http://iplmedia.com/css/proximanova-light-webfont.eot');
+    src: url('/web/20180817040003im_/http://iplmedia.com/css/proximanova-light-webfont.eot#iefix') format('embedded-opentype'),
+         url('/web/20180817040003im_/http://iplmedia.com/css/proximanova-light-webfont.woff') format('woff'),
+         url('/web/20180817040003im_/http://iplmedia.com/css/proximanova-light-webfont.ttf') format('truetype'),
+         url('/web/20180817040003im_/http://iplmedia.com/css/proximanova-light-webfont.svg#ProximaNovaLtRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ProximaNovaRgBold';
+    src: url('/web/20180817040003im_/http://iplmedia.com/css/proximanova-bold-webfont.eot');
+    src: url('/web/20180817040003im_/http://iplmedia.com/css/proximanova-bold-webfont.eot#iefix') format('embedded-opentype'),
+         url('/web/20180817040003im_/http://iplmedia.com/css/proximanova-bold-webfont.woff') format('woff'),
+         url('/web/20180817040003im_/http://iplmedia.com/css/proximanova-bold-webfont.ttf') format('truetype'),
+         url('/web/20180817040003im_/http://iplmedia.com/css/proximanova-bold-webfont.svg#ProximaNovaRgBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('/web/20180817040003im_/http://iplmedia.com/css/bebasneue-webfont.eot');
+    src: url('/web/20180817040003im_/http://iplmedia.com/css/bebasneue-webfont.eot#iefix') format('embedded-opentype'),
+         url('/web/20180817040003im_/http://iplmedia.com/css/bebasneue-webfont.woff') format('woff'),
+         url('/web/20180817040003im_/http://iplmedia.com/css/bebasneue-webfont.ttf') format('truetype'),
+         url('/web/20180817040003im_/http://iplmedia.com/css/bebasneue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,0 +1,78 @@
+.jp-jplayer{ overflow:hidden;}
+div.jp-audio {	
+	position:relative;	
+	height:33px; width:127px; overflow:hidden; 
+	margin:0px 0 0 0px ;line-height:33px; color:#49689a; font-size:12px;
+}
+
+
+/* @group CONTROLS */
+
+ul.jp-controls {
+
+	margin:0;
+	display:block;
+
+}
+
+/* @end */
+
+
+/* @group volume controls */
+
+
+a.jp-mute,
+a.jp-unmute { 
+	width:127px; position:relative;
+	height:33px;
+	float:left;
+	display: inline-block; text-decoration:none; padding-left:0px; color:#49689a; background:#000 url(/web/20180722024240im_/http://iplmedia.com/images/sound.png) 15px 5px no-repeat; padding-left:50px;
+}
+
+
+
+
+a.jp-mute,
+a.jp-unmute {
+	margin-left: 0px;	
+}
+
+a.jp-mute { 
+	
+}
+a.jp-mute:hover {  
+	
+}
+a.jp-unmute {
+	
+	display: none;
+}
+a.jp-unmute:hover { 
+	
+}
+
+
+
+
+
+
+/* @end */
+/*
+     FILE ARCHIVED ON 02:42:40 Jul 22, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:16:31 Feb 16, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.092
+  exclusion.robots.policy: 0.078
+  cdx.remote: 0.161
+  esindex: 0.014
+  LoadShardBlock: 151.385 (6)
+  PetaboxLoader3.datanode: 123.696 (8)
+  load_resource: 223.11 (2)
+  PetaboxLoader3.resolve: 114.901 (2)
+*/
