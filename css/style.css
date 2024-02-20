@@ -83,10 +83,10 @@ footer{ width:100%; height:33px; background:#101f33; position:absolute; left:0; 
 
 .menu { display:block; width:100%; height:55px; position:absolute; left:0; top:0px; z-index:10; text-align:center; white-space:nowrap;}
 #menu { display:inline-block;}
-#menu > li { display:inline-block;height:55px;padding-left:2px; position:relative; float:left;white-space:nowrap; background:url(/web/20180817040003im_/http://iplmedia.com/images/markers.png) 0 0 no-repeat;}
+#menu > li { display:inline-block;height:55px;padding-left:2px; position:relative; float:left;white-space:nowrap; background:url(/images/markers.png) 0 0 no-repeat;}
 #menu > li.last{}
 #menu > li > a{display:inline-block; height:55px; text-decoration:none; position:relative; padding:0 20px; overflow:hidden;}
-#menu > li > a .over{display:block;position: absolute;width:100%; height:55px; left:0px; top:55px; z-index:10; background: url(/web/20180817040003im_/http://iplmedia.com/images/nav.png) left bottom repeat-x;}
+#menu > li > a .over{display:block;position: absolute;width:100%; height:55px; left:0px; top:55px; z-index:10; background: url(/images/nav.png) left bottom repeat-x;}
 #menu > li > a .txt1{ display:block; position: relative; width:100%; height:100%; left:0px; top:0px; z-index:5;font-family:'BebasNeueRegular';font-size:24px; line-height:60px; color:#c2ccdc; text-decoration:none; text-transform:uppercase; text-shadow:1px 1px 1px #000;  }
 
 #menu > li > a:hover .over, #menu > li.sfHover > a .over{ top:0px;}
@@ -256,7 +256,7 @@ input.submit:hover{ background-position:bottom;}
     font-family: 'ProximaNovaRgBold';
     src: url('/web/20180817040003im_/http://iplmedia.com/css/proximanova-bold-webfont.eot');
     src: url('/web/20180817040003im_/http://iplmedia.com/css/proximanova-bold-webfont.eot#iefix') format('embedded-opentype'),
-         url('/web/20180817040003im_/http://iplmedia.com/css/proximanova-bold-webfont.woff') format('woff'),
+         url('proximanova-bold-webfont.woff') format('woff'),
          url('/web/20180817040003im_/http://iplmedia.com/css/proximanova-bold-webfont.ttf') format('truetype'),
          url('/web/20180817040003im_/http://iplmedia.com/css/proximanova-bold-webfont.svg#ProximaNovaRgBold') format('svg');
     font-weight: normal;
@@ -268,29 +268,10 @@ input.submit:hover{ background-position:bottom;}
     font-family: 'BebasNeueRegular';
     src: url('/web/20180817040003im_/http://iplmedia.com/css/bebasneue-webfont.eot');
     src: url('/web/20180817040003im_/http://iplmedia.com/css/bebasneue-webfont.eot#iefix') format('embedded-opentype'),
-         url('/web/20180817040003im_/http://iplmedia.com/css/bebasneue-webfont.woff') format('woff'),
+         url('bebasneue-webfont.woff') format('woff'),
          url('/web/20180817040003im_/http://iplmedia.com/css/bebasneue-webfont.ttf') format('truetype'),
          url('/web/20180817040003im_/http://iplmedia.com/css/bebasneue-webfont.svg#BebasNeueRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
-/*
-     FILE ARCHIVED ON 04:00:03 Aug 17, 2018 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 14:16:31 Feb 16, 2024.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots: 0.067
-  exclusion.robots.policy: 0.056
-  cdx.remote: 0.109
-  esindex: 0.011
-  LoadShardBlock: 208.232 (6)
-  PetaboxLoader3.datanode: 163.293 (8)
-  load_resource: 440.4 (2)
-  PetaboxLoader3.resolve: 353.883 (2)
-*/
